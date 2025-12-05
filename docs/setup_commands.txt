@@ -1,0 +1,6 @@
+﻿# Quick Setup (local)
+1) copy .env.example -> .env and fill DB creds + JWT secret
+2) pip install -r requirements.txt
+3) python init_db.py    # one-time create tables
+4) python app.py
+5) test with curl/Postman
